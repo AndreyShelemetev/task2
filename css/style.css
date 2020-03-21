@@ -4,19 +4,18 @@
 
 .main_container {
     width: 1439px;
-    height: 950px;
     margin: 0 auto;
-    padding: 43px 0px 0px 77px;
+    padding: 43px 0px 43px 77px;
+    float: left;
 }
 
 .header {
-    height: 46px;
+    position:relative;
+    float: left;
 }
 
 .header .logo {
     float: left;
-    width: 58px;
-    height: 46px;
     font-family: 'Crete Round', serif;
     font-size: 34px;
     color: #060c31;
@@ -25,64 +24,50 @@
 
 .header .top {
     float: left;
-    height: 46px;
-    width: 615px;
     position: relative;
-    margin-left: 601px;
+    margin-left: 561px;
 }
 
 .menu {
-    height: 46px;
-    padding: 0px;
-    margin: 0px;
-    position: absolute;
-    top: -5px;
+    float:left;
+    position: relative;
 }
 
 .menu_item {
     display: inline;
-    list-style: none;
 }
 
 .menu_link {
     text-decoration: none;
     padding: 0 36px 0px 0px;
-    width: 46px;
-    height: 12px;
     font-family: Lato;
     font-size: 13px;
     font-weight: bold;
-    line-height: 4.92;
     color: #060c31;
 }
 
 
 .top_button {
     float: right;
+    margin-left:3px;
 }
 
 .promo {
     position: relative;
-    width: 1241px;
-    height: 600px;
     margin-top: 68px;
     margin-left: 113px;
-
+    float: left;
 }
 
 .promo_info {
     position: relative;
-    width: 441px;
-    height: 426px;
-    margin-top: 105px;
+    margin-top: 100px;
     float: left;
 
 }
 
 .promo_title {
     position: relative;
-    width: 447px;
-    height: 186px;
     font-family: 'Crete Round', sans-serif;
     font-size: 58px;
     color: #060c31;
@@ -93,8 +78,6 @@
 
 .promo_text {
     margin-top: 43px;
-    width: 381px;
-    height: 71px;
     font-family: 'Lato', sans-serif;
     font-size: 15px;
     line-height: 1.87;
@@ -106,7 +89,7 @@
     font-size: 15px;
     font-weight: bold;
     color: #fff;
-    margin: 70px 18px 0 0;
+    margin: 53px 18px 0 0;
     width: 152px;
     height: 50px;
     border-radius: 25px;
@@ -142,7 +125,7 @@
 
 .promo_image {
     float:left;
-    padding: 32px 0px 0px 53px;
+    padding: 29px 0px 0px 48px;
 }
 
 .footer {
